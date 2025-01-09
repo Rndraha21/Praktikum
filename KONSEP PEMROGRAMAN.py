@@ -186,5 +186,7 @@ Masukkan pilihan\t: '''))
                 print("Pilihan tidak valid. Silakan coba lagi.")
         except ValueError:
             print("Input tidak valid. Silahkan masukkan angka.")
+        except exception as e:
+            print(f"Terjadi kesalahan {e}")
 if __name__ == "__main__":
     main()
