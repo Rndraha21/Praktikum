@@ -61,7 +61,7 @@ def read_from_file():
                     else:
                         jadwal[date] = [description]
                 except ValueError:
-                    print(f"Format baris tidak valid: {line.strip()})
+                    print(f"Format baris tidak valid: {line.strip()}")
     return jadwal
 
 # Fungsi untuk menampilkan seluruh jadwal
